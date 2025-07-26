@@ -1,0 +1,1 @@
+nnUNetv2_predict -i /hdd/yang/data/care2025/validation_dataset/val_all/ -o /hdd/yang/results/glomeruli_segmentation/nnUNet_results/Dataset015_Care2025_benchmark3/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/val_all -d 15 -c 3d_fullres -f 2 -step_size 0.5 -p nnUNetPlans

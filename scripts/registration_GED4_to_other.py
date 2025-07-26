@@ -107,9 +107,6 @@ def registration(patient_folder):
     print(f"Resampled label saved for {patient_folder.name}")
 
 
-
-
-
 def registration_GED4_to_others(base_dir):
     """
     Perform non-rigid registration of GED4 to .

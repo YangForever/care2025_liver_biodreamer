@@ -9,5 +9,6 @@ dependencies = [
     "matplotlib>=3.10.3",
     "natsort>=8.4.0",
     "nibabel>=5.3.2",
+    "scikit-image>=0.25.2",
     "simpleitk>=2.5.2",
 ]
