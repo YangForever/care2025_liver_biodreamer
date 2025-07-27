@@ -66,3 +66,9 @@ Example:
 ```Console
 nnUNetv2_predict -i ./Dataset013_care2025_benchmark1/imagesTs -o ./nnUNet_results/Dataset013_care2025_benchmark1/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/inference_test -d 13 -c 3d_fullres -f 0
 ```
+
+# Fibrosis Classfication
+Using the jupyter notebook
+```Console
+script/classification.ipynb
+```
