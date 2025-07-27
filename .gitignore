@@ -114,4 +114,5 @@ ENV/
 *.model
 *.nii
 *.sh
-
+*.pkl
+*.csv
