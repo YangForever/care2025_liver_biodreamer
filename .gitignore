@@ -92,7 +92,6 @@ ENV/
 
 *.memmap
 *.png
-*.zip
 *.npz
 *.npy
 *.jpg
@@ -110,8 +109,9 @@ ENV/
 *.png
 *.jpg
 *.jpeg
-
+*.zip
+*.nii.gz
 *.model
-
+*.nii
 *.sh
 
