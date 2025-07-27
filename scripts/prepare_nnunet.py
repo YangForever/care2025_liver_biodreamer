@@ -5,6 +5,7 @@ import nibabel as nib
 import json
 import natsort
 
+# moving the annotated GED4 data to the target directory
 def moving_liqa_annotated_data(base_dir, target_dir):
     """
     Move the LIQA annotated data from the base directory to the target directory.
@@ -31,6 +32,7 @@ def moving_liqa_annotated_data(base_dir, target_dir):
                                         target_images_dir / (patient.name + "_" + file.name.replace("mask_", ""))
                                         )
 
+# Moving the augmented GED4 data to the target directory
 def moving_augmented_data(base_dir, target_dir):
     """
     Moving the augmented data to benchmark2
@@ -52,6 +54,7 @@ def moving_augmented_data(base_dir, target_dir):
                 else:
                     shutil.copy(file, target_labels_dir / file.name)
 
+# Moving the registered LIQA annotated data (other modalities) to the target directory
 def moving_registered_data(base_dir, target_dir):
     """
     Move the registered LIQA annotated data from the base directory to the target directory.
@@ -78,11 +81,7 @@ def moving_registered_data(base_dir, target_dir):
                             shutil.copy(Path(file.parent / f'{image_modality}.nii.gz'), 
                                         target_images_dir / (patient.name + "_" + f'{image_modality}.nii.gz'))
                         
-                            
-
-
-
-
+# Create the nnUNet data JSON file
 def nnunet_data_json(num_training, num_test):
     """
     Create the nnUNet data JSON file.
@@ -107,6 +106,7 @@ def nnunet_data_json(num_training, num_test):
         "overwrite_image_reader_writer": "NibabelIO"
     }
 
+# Moving the data to the nnUNet_raw folder according to the nnUNet data structure
 def prepare_nnunet_data(base_dir, nnunet_raw_data_dir):
     """
     Prepare the nnUNet data structure from the LIQA annotated data.
@@ -144,6 +144,7 @@ def prepare_nnunet_data(base_dir, nnunet_raw_data_dir):
     with open(nnunet_raw_data_dir / "dataset.json", "w") as f:
         json.dump(dataset_json, f, indent=4)
 
+# Preparing the benchmark2 data
 def prepare_nnunet_data_benchmark2(base_dir, nnunet_raw_data_dir):
     """
     Prepare the nnUNet data structure from the LIQA annotated data.
@@ -178,6 +179,7 @@ def prepare_nnunet_data_benchmark2(base_dir, nnunet_raw_data_dir):
     with open(nnunet_raw_data_dir / "dataset.json", "w") as f:
         json.dump(dataset_json, f, indent=4)
 
+# Preparing the benchmark3 data
 def prepare_nnunet_data_benchmark3(base_dir, nnunet_raw_data_dir):
     """
     Prepare the nnUNet data structure from the LIQA annotated data.
