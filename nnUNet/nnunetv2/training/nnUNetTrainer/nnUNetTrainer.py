@@ -145,7 +145,7 @@ class nnUNetTrainer(object):
         self.oversample_foreground_percent = 0.33
         self.num_iterations_per_epoch = 250
         self.num_val_iterations_per_epoch = 50
-        self.num_epochs = 500 # 1000 default
+        self.num_epochs = 5 # 1000 default
         self.current_epoch = 0
 
         self.exponent = 0.994
@@ -465,9 +465,11 @@ class nnUNetTrainer(object):
     def configure_optimizers(self):
         #optimizer = torch.optim.SGD(self.network.parameters(), self.initial_lr, weight_decay=self.weight_decay,
         #                            momentum=0.99, nesterov=True)
+        
         # using adamW
-        optimizer = torch.optim.AdamW(self.network.parameters(), lr=self.initial_lr,
-                                      weight_decay=self.weight_decay, eps=1e-8)
+        optimizer = torch.optim.Adam(self.network.parameters(), lr=self.initial_lr,
+                                      weight_decay=self.weight_decay)
+        
         lr_scheduler = PolyLRScheduler(optimizer, self.initial_lr, self.num_epochs)
         #lr_scheduler = ExpLRScheduler(optimizer, self.initial_lr, self.num_epochs, self.exponent)
         return optimizer, lr_scheduler
