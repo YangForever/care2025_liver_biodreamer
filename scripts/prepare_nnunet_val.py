@@ -1,9 +1,7 @@
 import os
 from pathlib import Path
 import shutil
-import nibabel as nib
-import json
-import natsort
+from normalisation import normalise_image
 
 def copying_validation_data(base_dir, target_dir):
     """
@@ -44,8 +42,12 @@ def copying_validation_data_all_modality(base_dir, target_dir):
                     for file in patient.iterdir():
                         for modality in modality_dict:
                             if file.suffix == ".gz" and modality in file.name:
-                                print(f"Copying {file} to {target_dir / (patient.name + '_' + file.name.split('.')[0] + '_' + str(idx).zfill(3) + '_0000.nii.gz')}")
-                                shutil.copy(file, target_dir / (patient.name + '_' + file.name.split('.')[0] + '_' + str(idx).zfill(3) + '_0000.nii.gz'))
+                                # Normalise the image before copying
+                                norm_image = normalise_image(file)
+                                # Copy the normalised image to the target directory
+                                norm_image_path = target_dir / (patient.name + '_' + file.name.split('.')[0] + '_' + str(idx).zfill(3) + '_0000.nii.gz')
+                                print(f"Saving normalised data to: {norm_image_path}")
+                                norm_image.to_filename(norm_image_path)
                                 idx += 1
 
 def copying_train_GED4_data(base_dir, target_dir):

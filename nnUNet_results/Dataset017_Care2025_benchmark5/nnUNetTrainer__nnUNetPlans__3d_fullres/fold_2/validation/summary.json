@@ -1,0 +1,1178 @@
+{
+    "foreground_mean": {
+        "Dice": 0.919133955634237,
+        "FN": 31979.23611111111,
+        "FP": 33186.23611111111,
+        "IoU": 0.8637171791813368,
+        "TN": 13219154.555555556,
+        "TP": 494383.9166666667,
+        "n_pred": 527570.1527777778,
+        "n_ref": 526363.1527777778
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.919133955634237,
+            "FN": 31979.23611111111,
+            "FP": 33186.23611111111,
+            "IoU": 0.8637171791813368,
+            "TN": 13219154.555555556,
+            "TP": 494383.9166666667,
+            "n_pred": 527570.1527777778,
+            "n_ref": 526363.1527777778
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9511960975609756,
+                    "FN": 91391,
+                    "FP": 52428,
+                    "IoU": 0.9069341707720013,
+                    "TN": 27814781,
+                    "TP": 1401528,
+                    "n_pred": 1453956,
+                    "n_ref": 1492919
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/0241-B1-S2_GED1_006.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/0241-B1-S2_GED1_006.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9292688434510976,
+                    "FN": 110282,
+                    "FP": 100206,
+                    "IoU": 0.8678825097854114,
+                    "TN": 27766940,
+                    "TP": 1382700,
+                    "n_pred": 1482906,
+                    "n_ref": 1492982
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/0241-B1-S2_GED2_007.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/0241-B1-S2_GED2_007.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9539687572463597,
+                    "FN": 81874,
+                    "FP": 54304,
+                    "IoU": 0.9119887803112559,
+                    "TN": 27812848,
+                    "TP": 1411102,
+                    "n_pred": 1465406,
+                    "n_ref": 1492976
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/0241-B1-S2_T1_010.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/0241-B1-S2_T1_010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9819468028500139,
+                    "FN": 6441,
+                    "FP": 10591,
+                    "IoU": 0.9645338825111976,
+                    "TN": 18836503,
+                    "TP": 463201,
+                    "n_pred": 473792,
+                    "n_ref": 469642
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/0482-B1-S2_0487-B1-S2_img_013.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/0482-B1-S2_0487-B1-S2_img_013.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9180762940897662,
+                    "FN": 58773,
+                    "FP": 45625,
+                    "IoU": 0.8485591812755217,
+                    "TN": 28670763,
+                    "TP": 584967,
+                    "n_pred": 630592,
+                    "n_ref": 643740
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/0482-B1-S2_1012-B1-S4_img_015.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/0482-B1-S2_1012-B1-S4_img_015.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.921077508942325,
+                    "FN": 99898,
+                    "FP": 103557,
+                    "IoU": 0.8537012775026929,
+                    "TN": 27969446,
+                    "TP": 1187227,
+                    "n_pred": 1290784,
+                    "n_ref": 1287125
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/0482-B1-S2_GED3_020.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/0482-B1-S2_GED3_020.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9375097920108186,
+                    "FN": 10145,
+                    "FP": 12590,
+                    "IoU": 0.8823702891202219,
+                    "TN": 6257924,
+                    "TP": 170541,
+                    "n_pred": 183131,
+                    "n_ref": 180686
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/0482-B1-S2_T2_023.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/0482-B1-S2_T2_023.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.89069362578319,
+                    "FN": 5031,
+                    "FP": 7338,
+                    "IoU": 0.802928430310369,
+                    "TN": 1968852,
+                    "TP": 50395,
+                    "n_pred": 57733,
+                    "n_ref": 55426
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/0487-B1-S2_DWI_800_029.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/0487-B1-S2_DWI_800_029.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.908668683635684,
+                    "FN": 17269,
+                    "FP": 21824,
+                    "IoU": 0.8326240345258688,
+                    "TN": 6217636,
+                    "TP": 194471,
+                    "n_pred": 216295,
+                    "n_ref": 211740
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/0496-B1-S3_T2_047.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/0496-B1-S3_T2_047.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9103434278312051,
+                    "FN": 7631,
+                    "FP": 7388,
+                    "IoU": 0.8354406801945917,
+                    "TN": 2775932,
+                    "TP": 76249,
+                    "n_pred": 83637,
+                    "n_ref": 83880
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1009-A-S4_GED3_068.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1009-A-S4_GED3_068.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.973293447053371,
+                    "FN": 3023,
+                    "FP": 1414,
+                    "IoU": 0.9479762686427164,
+                    "TN": 2781912,
+                    "TP": 80851,
+                    "n_pred": 82265,
+                    "n_ref": 83874
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1009-A-S4_GED4_069.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1009-A-S4_GED4_069.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8883399389411201,
+                    "FN": 9713,
+                    "FP": 8684,
+                    "IoU": 0.7991111402301863,
+                    "TN": 4037190,
+                    "TP": 73181,
+                    "n_pred": 81865,
+                    "n_ref": 82894
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1012-B1-S4_1144-B1-S1_img_075.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1012-B1-S4_1144-B1-S1_img_075.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9568510317424658,
+                    "FN": 84829,
+                    "FP": 47699,
+                    "IoU": 0.9172717040987736,
+                    "TN": 27758161,
+                    "TP": 1469439,
+                    "n_pred": 1517138,
+                    "n_ref": 1554268
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1012-B1-S4_T1_082.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1012-B1-S4_T1_082.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9408894807338878,
+                    "FN": 13059,
+                    "FP": 17303,
+                    "IoU": 0.8883770518924284,
+                    "TN": 6179195,
+                    "TP": 241643,
+                    "n_pred": 258946,
+                    "n_ref": 254702
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1012-B1-S4_T2_083.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1012-B1-S4_T2_083.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.933737445022747,
+                    "FN": 3503,
+                    "FP": 7013,
+                    "IoU": 0.8757106218014632,
+                    "TN": 4044159,
+                    "TP": 74093,
+                    "n_pred": 81106,
+                    "n_ref": 77596
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1029-B1-S4_1144-B1-S1_img_087.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1029-B1-S4_1144-B1-S1_img_087.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9487483986796704,
+                    "FN": 6192,
+                    "FP": 10251,
+                    "IoU": 0.9024941293673948,
+                    "TN": 3960132,
+                    "TP": 152193,
+                    "n_pred": 162444,
+                    "n_ref": 158385
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1029-B1-S4_1158-B1-S2_img_088.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1029-B1-S4_1158-B1-S2_img_088.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.734070739803205,
+                    "FN": 16605,
+                    "FP": 10394,
+                    "IoU": 0.5798671086005944,
+                    "TN": 1705209,
+                    "TP": 37264,
+                    "n_pred": 47658,
+                    "n_ref": 53869
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1029-B1-S4_DWI_800_089.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1029-B1-S4_DWI_800_089.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.933220663211998,
+                    "FN": 71314,
+                    "FP": 96459,
+                    "IoU": 0.8748019679701148,
+                    "TN": 28020067,
+                    "TP": 1172288,
+                    "n_pred": 1268747,
+                    "n_ref": 1243602
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1029-B1-S4_GED3_092.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1029-B1-S4_GED3_092.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9768107471758606,
+                    "FN": 13194,
+                    "FP": 14580,
+                    "IoU": 0.9546726028246799,
+                    "TN": 14427258,
+                    "TP": 584968,
+                    "n_pred": 599548,
+                    "n_ref": 598162
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1031-B2-S1_1075-B2-S4_img_098.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1031-B2-S1_1075-B2-S4_img_098.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9287743289117418,
+                    "FN": 26983,
+                    "FP": 11581,
+                    "IoU": 0.8670202311042452,
+                    "TN": 7672625,
+                    "TP": 251435,
+                    "n_pred": 263016,
+                    "n_ref": 278418
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1041-B2-S3_T2_119.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1041-B2-S3_T2_119.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9550100213413446,
+                    "FN": 26625,
+                    "FP": 35733,
+                    "IoU": 0.913893951946976,
+                    "TN": 20575000,
+                    "TP": 661842,
+                    "n_pred": 697575,
+                    "n_ref": 688467
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1053-A-S3_1406-A-S1_img_120.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1053-A-S3_1406-A-S1_img_120.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9610354785037224,
+                    "FN": 25612,
+                    "FP": 29023,
+                    "IoU": 0.9249935475368065,
+                    "TN": 20570796,
+                    "TP": 673769,
+                    "n_pred": 702792,
+                    "n_ref": 699381
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1053-A-S3_1991-A-S4_img_123.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1053-A-S3_1991-A-S4_img_123.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8361984488305061,
+                    "FN": 58008,
+                    "FP": 73209,
+                    "IoU": 0.7185060442566155,
+                    "TN": 5524255,
+                    "TP": 334928,
+                    "n_pred": 408137,
+                    "n_ref": 392936
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1053-A-S3_GED2_127.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1053-A-S3_GED2_127.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9734230421503756,
+                    "FN": 6438,
+                    "FP": 6467,
+                    "IoU": 0.948222181208323,
+                    "TN": 7215722,
+                    "TP": 236333,
+                    "n_pred": 242800,
+                    "n_ref": 242771
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1070-B2-S4_1076-B2-S4_img_147.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1070-B2-S4_1076-B2-S4_img_147.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.967629944609187,
+                    "FN": 10225,
+                    "FP": 12917,
+                    "IoU": 0.9372898211803344,
+                    "TN": 14030969,
+                    "TP": 345889,
+                    "n_pred": 358806,
+                    "n_ref": 356114
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1070-B2-S4_1115-B2-S4_img_148.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1070-B2-S4_1115-B2-S4_img_148.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8719153852225515,
+                    "FN": 64995,
+                    "FP": 77805,
+                    "IoU": 0.7729166534148374,
+                    "TN": 16167316,
+                    "TP": 486044,
+                    "n_pred": 563849,
+                    "n_ref": 551039
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1070-B2-S4_GED2_151.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1070-B2-S4_GED2_151.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8808611589752199,
+                    "FN": 92972,
+                    "FP": 100072,
+                    "IoU": 0.7870883635569536,
+                    "TN": 24183874,
+                    "TP": 713642,
+                    "n_pred": 813714,
+                    "n_ref": 806614
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1070-B2-S4_T1_154.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1070-B2-S4_T1_154.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9765541228095821,
+                    "FN": 10269,
+                    "FP": 14592,
+                    "IoU": 0.9541824776220077,
+                    "TN": 13857391,
+                    "TP": 517748,
+                    "n_pred": 532340,
+                    "n_ref": 528017
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1075-B2-S4_1086-B2-S4_img_158.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1075-B2-S4_1086-B2-S4_img_158.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9536033640602763,
+                    "FN": 17801,
+                    "FP": 16138,
+                    "IoU": 0.911321129395534,
+                    "TN": 14017282,
+                    "TP": 348779,
+                    "n_pred": 364917,
+                    "n_ref": 366580
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1075-B2-S4_1115-B2-S4_img_160.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1075-B2-S4_1115-B2-S4_img_160.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9787916213620794,
+                    "FN": 19263,
+                    "FP": 13467,
+                    "IoU": 0.9584641507422645,
+                    "TN": 14252006,
+                    "TP": 755264,
+                    "n_pred": 768731,
+                    "n_ref": 774527
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1075-B2-S4_GED4_165.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1075-B2-S4_GED4_165.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9405143400748978,
+                    "FN": 93225,
+                    "FP": 72355,
+                    "IoU": 0.8877084189524426,
+                    "TN": 22045446,
+                    "TP": 1308974,
+                    "n_pred": 1381329,
+                    "n_ref": 1402199
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1075-B2-S4_T1_166.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1075-B2-S4_T1_166.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.982801981122647,
+                    "FN": 4847,
+                    "FP": 5650,
+                    "IoU": 0.9661855045759256,
+                    "TN": 7154531,
+                    "TP": 299932,
+                    "n_pred": 305582,
+                    "n_ref": 304779
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1076-B2-S4_GED4_174.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1076-B2-S4_GED4_174.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9172977124811375,
+                    "FN": 91247,
+                    "FP": 149186,
+                    "IoU": 0.8472298646225558,
+                    "TN": 28286018,
+                    "TP": 1333389,
+                    "n_pred": 1482575,
+                    "n_ref": 1424636
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1086-B2-S4_GED1_182.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1086-B2-S4_GED1_182.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9408520505062666,
+                    "FN": 35328,
+                    "FP": 40817,
+                    "IoU": 0.8883103167560193,
+                    "TN": 12589285,
+                    "TP": 605610,
+                    "n_pred": 646427,
+                    "n_ref": 640938
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1086-B2-S4_GED3_184.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1086-B2-S4_GED3_184.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9629382228051772,
+                    "FN": 9307,
+                    "FP": 13552,
+                    "IoU": 0.9285254205490588,
+                    "TN": 12480180,
+                    "TP": 296961,
+                    "n_pred": 310513,
+                    "n_ref": 306268
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1097-B2-S4_1098-B2-S4_img_192.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1097-B2-S4_1098-B2-S4_img_192.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9602267347544233,
+                    "FN": 12292,
+                    "FP": 12912,
+                    "IoU": 0.9234962725528764,
+                    "TN": 12470552,
+                    "TP": 304244,
+                    "n_pred": 317156,
+                    "n_ref": 316536
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1098-B2-S4_1097-B2-S4_img_203.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1098-B2-S4_1097-B2-S4_img_203.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9508876513330113,
+                    "FN": 15888,
+                    "FP": 20922,
+                    "IoU": 0.9063735190432345,
+                    "TN": 14006842,
+                    "TP": 356348,
+                    "n_pred": 377270,
+                    "n_ref": 372236
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1098-B2-S4_1115-B2-S4_img_204.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1098-B2-S4_1115-B2-S4_img_204.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8508853743801709,
+                    "FN": 88487,
+                    "FP": 89297,
+                    "IoU": 0.7404704068762554,
+                    "TN": 14244896,
+                    "TP": 507240,
+                    "n_pred": 596537,
+                    "n_ref": 595727
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1098-B2-S4_GED2_206.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1098-B2-S4_GED2_206.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9538920142546563,
+                    "FN": 8406,
+                    "FP": 12166,
+                    "IoU": 0.9118485158824361,
+                    "TN": 14166629,
+                    "TP": 212799,
+                    "n_pred": 224965,
+                    "n_ref": 221205
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1115-B2-S4_1070-B2-S4_img_212.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1115-B2-S4_1070-B2-S4_img_212.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9253270281564234,
+                    "FN": 18445,
+                    "FP": 9789,
+                    "IoU": 0.8610312647661049,
+                    "TN": 4275808,
+                    "TP": 174934,
+                    "n_pred": 184723,
+                    "n_ref": 193379
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1115-B2-S4_DWI_800_216.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1115-B2-S4_DWI_800_216.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9219879326142788,
+                    "FN": 102420,
+                    "FP": 126521,
+                    "IoU": 0.8552668012800494,
+                    "TN": 35282186,
+                    "TP": 1352873,
+                    "n_pred": 1479394,
+                    "n_ref": 1455293
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1115-B2-S4_GED1_217.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1115-B2-S4_GED1_217.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9413491828849311,
+                    "FN": 42380,
+                    "FP": 43915,
+                    "IoU": 0.889197049363456,
+                    "TN": 16017345,
+                    "TP": 692520,
+                    "n_pred": 736435,
+                    "n_ref": 734900
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1115-B2-S4_GED2_218.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1115-B2-S4_GED2_218.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9392676054403313,
+                    "FN": 34241,
+                    "FP": 36499,
+                    "IoU": 0.8854896958532507,
+                    "TN": 12653279,
+                    "TP": 547021,
+                    "n_pred": 583520,
+                    "n_ref": 581262
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1115-B2-S4_GED3_219.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1115-B2-S4_GED3_219.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.847349143561926,
+                    "FN": 151137,
+                    "FP": 191822,
+                    "IoU": 0.7351307976991468,
+                    "TN": 29425176,
+                    "TP": 951865,
+                    "n_pred": 1143687,
+                    "n_ref": 1103002
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1115-B2-S4_T1_221.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1115-B2-S4_T1_221.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9262899354058376,
+                    "FN": 9594,
+                    "FP": 10273,
+                    "IoU": 0.8627002446474726,
+                    "TN": 3984070,
+                    "TP": 124831,
+                    "n_pred": 135104,
+                    "n_ref": 134425
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1144-B1-S1_GED3_230.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1144-B1-S1_GED3_230.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9362732478246484,
+                    "FN": 54754,
+                    "FP": 77183,
+                    "IoU": 0.8801821011927574,
+                    "TN": 28258982,
+                    "TP": 969209,
+                    "n_pred": 1046392,
+                    "n_ref": 1023963
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1158-B1-S2_1002-B1-S1_img_235.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1158-B1-S2_1002-B1-S1_img_235.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9818551652209965,
+                    "FN": 20925,
+                    "FP": 9886,
+                    "IoU": 0.9643570655977604,
+                    "TN": 18452301,
+                    "TP": 833624,
+                    "n_pred": 843510,
+                    "n_ref": 854549
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1158-B1-S2_1194-B1-S4_img_238.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1158-B1-S2_1194-B1-S4_img_238.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7940136352905547,
+                    "FN": 51956,
+                    "FP": 34425,
+                    "IoU": 0.6583935428505895,
+                    "TN": 3875901,
+                    "TP": 166486,
+                    "n_pred": 200911,
+                    "n_ref": 218442
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1158-B1-S2_GED1_239.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1158-B1-S2_GED1_239.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9147074458112486,
+                    "FN": 20928,
+                    "FP": 17741,
+                    "IoU": 0.8428210829244895,
+                    "TN": 3593981,
+                    "TP": 207350,
+                    "n_pred": 225091,
+                    "n_ref": 228278
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1158-B1-S2_T2_244.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1158-B1-S2_T2_244.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9284154334401664,
+                    "FN": 38336,
+                    "FP": 80287,
+                    "IoU": 0.8663949280463314,
+                    "TN": 28472265,
+                    "TP": 769240,
+                    "n_pred": 849527,
+                    "n_ref": 807576
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1194-B1-S4_0241-B1-S2_img_245.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1194-B1-S4_0241-B1-S2_img_245.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.956517202045318,
+                    "FN": 9966,
+                    "FP": 14202,
+                    "IoU": 0.9166583329597534,
+                    "TN": 6366013,
+                    "TP": 265819,
+                    "n_pred": 280021,
+                    "n_ref": 275785
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1406-A-S1_1053-A-S3_img_257.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1406-A-S1_1053-A-S3_img_257.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.950097787851799,
+                    "FN": 65758,
+                    "FP": 22041,
+                    "IoU": 0.9049393142127088,
+                    "TN": 30140454,
+                    "TP": 835811,
+                    "n_pred": 857852,
+                    "n_ref": 901569
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1406-A-S1_GED1_263.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1406-A-S1_GED1_263.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9694470546633851,
+                    "FN": 51395,
+                    "FP": 13666,
+                    "IoU": 0.9407057240972024,
+                    "TN": 20201944,
+                    "TP": 1032195,
+                    "n_pred": 1045861,
+                    "n_ref": 1083590
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1406-A-S1_GED4_266.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1406-A-S1_GED4_266.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9226039177485883,
+                    "FN": 3801,
+                    "FP": 6369,
+                    "IoU": 0.8563275223914333,
+                    "TN": 2796414,
+                    "TP": 60616,
+                    "n_pred": 66985,
+                    "n_ref": 64417
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1432-A-S4_1009-A-S4_img_269.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1432-A-S4_1009-A-S4_img_269.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9783273845291456,
+                    "FN": 3231,
+                    "FP": 6976,
+                    "IoU": 0.957574246108444,
+                    "TN": 5749815,
+                    "TP": 230378,
+                    "n_pred": 237354,
+                    "n_ref": 233609
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1432-A-S4_1927-A-S1_img_271.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1432-A-S4_1927-A-S1_img_271.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8941882321669293,
+                    "FN": 13646,
+                    "FP": 8646,
+                    "IoU": 0.8086260774011882,
+                    "TN": 1849596,
+                    "TP": 94192,
+                    "n_pred": 102838,
+                    "n_ref": 107838
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1432-A-S4_T2_280.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1432-A-S4_T2_280.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9768996134596675,
+                    "FN": 3691,
+                    "FP": 6851,
+                    "IoU": 0.9548423852747281,
+                    "TN": 5756951,
+                    "TP": 222907,
+                    "n_pred": 229758,
+                    "n_ref": 226598
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1920-A-S1_1927-A-S1_img_283.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1920-A-S1_1927-A-S1_img_283.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.915453004269033,
+                    "FN": 7722,
+                    "FP": 7389,
+                    "IoU": 0.8440879075526208,
+                    "TN": 1500520,
+                    "TP": 81809,
+                    "n_pred": 89198,
+                    "n_ref": 89531
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1920-A-S1_DWI_800_286.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1920-A-S1_DWI_800_286.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9713130361726683,
+                    "FN": 7191,
+                    "FP": 12545,
+                    "IoU": 0.9442260574186748,
+                    "TN": 5636543,
+                    "TP": 334121,
+                    "n_pred": 346666,
+                    "n_ref": 341312
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1920-A-S1_GED4_290.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1920-A-S1_GED4_290.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9049521142115997,
+                    "FN": 4095,
+                    "FP": 6018,
+                    "IoU": 0.8264041472123043,
+                    "TN": 2808944,
+                    "TP": 48143,
+                    "n_pred": 54161,
+                    "n_ref": 52238
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1927-A-S1_1009-A-S4_img_293.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1927-A-S1_1009-A-S4_img_293.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9663250432361845,
+                    "FN": 18184,
+                    "FP": 41282,
+                    "IoU": 0.934844205050215,
+                    "TN": 20386526,
+                    "TP": 853208,
+                    "n_pred": 894490,
+                    "n_ref": 871392
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1927-A-S1_1991-A-S4_img_296.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1927-A-S1_1991-A-S4_img_296.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9507860821664823,
+                    "FN": 24466,
+                    "FP": 37358,
+                    "IoU": 0.9061889725307157,
+                    "TN": 20640173,
+                    "TP": 597203,
+                    "n_pred": 634561,
+                    "n_ref": 621669
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1927-A-S1_1998-A-S4_img_297.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1927-A-S1_1998-A-S4_img_297.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 317,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 1903011,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 317
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1927-A-S1_GED1_299.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1927-A-S1_GED1_299.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8776180975238316,
+                    "FN": 6780,
+                    "FP": 5917,
+                    "IoU": 0.7819246689452621,
+                    "TN": 2808977,
+                    "TP": 45526,
+                    "n_pred": 51443,
+                    "n_ref": 52306
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1967-A-S2_1009-A-S4_img_305.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1967-A-S2_1009-A-S4_img_305.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.970993874148712,
+                    "FN": 6669,
+                    "FP": 5197,
+                    "IoU": 0.9436230259031909,
+                    "TN": 2282274,
+                    "TP": 198610,
+                    "n_pred": 203807,
+                    "n_ref": 205279
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1967-A-S2_1971-A-S2_img_308.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1967-A-S2_1971-A-S2_img_308.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8995469708225903,
+                    "FN": 3174,
+                    "FP": 10618,
+                    "IoU": 0.8174333178899993,
+                    "TN": 1521895,
+                    "TP": 61753,
+                    "n_pred": 72371,
+                    "n_ref": 64927
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1971-A-S2_DWI_800_322.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1971-A-S2_DWI_800_322.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9676659742373174,
+                    "FN": 5517,
+                    "FP": 6484,
+                    "IoU": 0.9373574347919135,
+                    "TN": 2301171,
+                    "TP": 179578,
+                    "n_pred": 186062,
+                    "n_ref": 185095
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1991-A-S4_1971-A-S2_img_332.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1991-A-S4_1971-A-S2_img_332.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9541093021828959,
+                    "FN": 17173,
+                    "FP": 34436,
+                    "IoU": 0.9122457099716379,
+                    "TN": 20711092,
+                    "TP": 536499,
+                    "n_pred": 570935,
+                    "n_ref": 553672
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1991-A-S4_1998-A-S4_img_333.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1991-A-S4_1998-A-S4_img_333.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8828167585726057,
+                    "FN": 10911,
+                    "FP": 7577,
+                    "IoU": 0.7902166142813376,
+                    "TN": 1509311,
+                    "TP": 69641,
+                    "n_pred": 77218,
+                    "n_ref": 80552
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1991-A-S4_DWI_800_334.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1991-A-S4_DWI_800_334.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9444996319877295,
+                    "FN": 12522,
+                    "FP": 9044,
+                    "IoU": 0.8948359096893743,
+                    "TN": 5119730,
+                    "TP": 183504,
+                    "n_pred": 192548,
+                    "n_ref": 196026
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1998-A-S4_GED2_348.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1998-A-S4_GED2_348.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9773563692334485,
+                    "FN": 20522,
+                    "FP": 14844,
+                    "IoU": 0.9557155003261921,
+                    "TN": 20500591,
+                    "TP": 763243,
+                    "n_pred": 778087,
+                    "n_ref": 783765
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1998-A-S4_GED4_350.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1998-A-S4_GED4_350.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9564868745290511,
+                    "FN": 32273,
+                    "FP": 36099,
+                    "IoU": 0.9166026293127633,
+                    "TN": 20479366,
+                    "TP": 751462,
+                    "n_pred": 787561,
+                    "n_ref": 783735
+                }
+            },
+            "prediction_file": "/home/ucemy02/results/nnUNet_results/Dataset017_Care2025_benchmark5/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_2/validation/1998-A-S4_T1_351.nii.gz",
+            "reference_file": "/home/ucemy02/data/kidney_seg/nnUNet_preprocessed/Dataset017_Care2025_benchmark5/gt_segmentations/1998-A-S4_T1_351.nii.gz"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Care2025 Liver Benchmark",
+    "description": "Liver segmentation benchmark dataset for Care2025.",
+    "tensorImageSize": "3D",
+    "reference": "",
+    "licence": "CC BY-NC-SA 4.0",
+    "release": "1.0",
+    "channel_names": {
+        "0": "GED4"
+    },
+    "labels": {
+        "background": 0,
+        "liver": 1
+    },
+    "numTraining": 353,
+    "numTest": 0,
+    "file_ending": ".nii.gz",
+    "overwrite_image_reader_writer": "NibabelIO"
+}

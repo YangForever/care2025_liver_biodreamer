@@ -10,6 +10,7 @@ def prepare_submission_folder(submission_dir: str, validation_dir: str) -> None:
         submission_path (Path): The path to the submission folder.
     """
     submission_dir = Path(submission_dir)
+    submission_dir = submission_dir / 'LiSeg_pred'
     validation_dir = Path(validation_dir)
     if not submission_dir.exists():
         submission_dir.mkdir(parents=True, exist_ok=True)

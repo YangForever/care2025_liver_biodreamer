@@ -24,8 +24,6 @@ var/
 .installed.cfg
 *.egg
 Dataset/
-nnUNet_results/
-nnUNet_preprocessed/
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -113,6 +111,6 @@ ENV/
 *.nii.gz
 *.model
 *.nii
-*.sh
 *.pkl
 *.csv
+*.pth
