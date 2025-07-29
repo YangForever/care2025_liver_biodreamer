@@ -30,6 +30,7 @@ def copying_validation_data_all_modality(base_dir, target_dir):
     modality_dict = ["GED4","GED3","GED2","GED1","T1","T2","DWI_800"]
     
     base_dir = Path(base_dir)
+    base_dir = base_dir / "Data"
     target_dir = Path(target_dir)
     if not target_dir.exists():
         target_dir.mkdir(parents=True, exist_ok=True)

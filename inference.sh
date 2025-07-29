@@ -3,7 +3,9 @@
 source .venv/bin/activate
 
 # Prepare data for inference
-uv run scripts/inference_data_preparation.py --input_dir /hdd/yang/data/care2025/LiQA_val/Data
+echo -n "Enter test data directory (strctured as released validation data), for example: care2025/LiQA_val:"
+read input_dir
+uv run scripts/inference_data_preparation.py --input_dir "$input_dir" 
 
 # Run inference
 nnUNetv2_predict -i output/renamed_data \
@@ -14,5 +16,8 @@ nnUNetv2_predict -i output/renamed_data \
                -step_size 0.5 \
                -p nnUNetPlans
 
+uv run scripts/post_processing.py --inference_dir output/inference \
+                                --output_dir output/post_processing
+
 uv run scripts/submission_preparation.py --submission_dir output/CARE-Liver-Submission \
-                                          --validation_dir output/inference
+                                          --validation_dir output/post_processing 

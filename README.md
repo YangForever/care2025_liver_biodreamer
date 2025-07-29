@@ -6,32 +6,29 @@ To install all the dependencies, run the commands:
 ````
 cd care2025_liver_biodreamer/
 uv sync
+cd nnUNet/
+uv pip install -e .
 ````
 
 *The packages used are listed in the pyproject.toml which can used to create a environment by conda if required* 
 
-# Runing the data-preprocessing for nnUNet training
+# Segmentation Inference
+Once the test data are organised as the release validation dataset:
 ````
-uv run scripts/prepare_nnunet.py
+LiQA_val/
+    -Data/
+        -VendorA/
+            -xxxx/
+            -yyyy/
+            -zzzz/
 ````
-*Replace the path to the folder*
+Replace the *--input_dir* to the *LiQA_val* path, then run
+````
+./inference.sh
+````
 
-# Runing the multi-modal registration
-````
-uv run scripts/registration_GED4_to_other.py
-````
-*Replace the path to the folder*
-
-# Runing the nnUNet
-Please refer to the official nnUNet repository for details.
-
-We are still figuring out integrating the uv with nnUNet, so to run the nnUNet, we need a conda enviroment and run the code inside the environment.
-
-## nnUNet installation
-````
-cd nnUNet
-pip install -e .
-````
+# nnUNet Usage
+please refer to the original documentation for more details 
 ## nnUNet data preprocessed
 After running the code and obtain the nnUNet_raw data
 
