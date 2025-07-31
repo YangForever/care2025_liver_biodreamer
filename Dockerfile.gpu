@@ -1,0 +1,55 @@
+FROM python:3.9-slim
+
+# Install system dependencies for CUDA
+RUN apt-get update && apt-get install -y \
+    wget \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy uv binary from official image
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
+
+# Set working directory
+WORKDIR /app
+
+# Set environment variables for uv
+ENV UV_COMPILE_BYTECODE=1
+ENV UV_LINK_MODE=copy
+
+# Copy dependency files first for better caching
+COPY pyproject.toml uv.lock* ./
+RUN uv sync --locked --no-install-project
+
+# Copy the rest of the application
+COPY . /app
+RUN uv sync --locked
+
+# Install CUDA-compatible PyTorch for GPU inference
+RUN uv pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+
+# Install nnUNet from the nnUNet subdirectory (required for nnUNetv2_predict command)
+WORKDIR /app/nnUNet
+RUN uv pip install -e .
+
+# Return to app directory
+WORKDIR /app
+
+# Set PATH to include virtual environment
+ENV PATH="/app/.venv/bin:$PATH"
+
+# Set nnUNet environment variables (required for proper model loading)
+ENV nnUNet_raw=/app/nnUNet_raw \
+    nnUNet_preprocessed=/app/nnUNet_preprocessed \
+    nnUNet_results=/app/nnUNet_results
+
+# Make inference script executable
+RUN chmod +x /app/inference.sh
+
+# Set default mount points
+VOLUME ["/input", "/output"]
+
+# Set the entrypoint to run inference script
+ENTRYPOINT ["/app/inference.sh"]
+
+# Default command shows usage if no arguments provided
+CMD ["-h"] 

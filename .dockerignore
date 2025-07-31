@@ -1,0 +1,24 @@
+.venv
+
+__pycache__/
+
+*.pyc
+
+*.pyo
+
+.git
+
+.env
+
+output/
+
+notebook/
+
+*.png
+
+nnUNet_raw/
+
+nnUNet_preprocessed/
+
+# nnUNet_results/ - Commented out to include pretrained models in Docker image
+
