@@ -1,0 +1,7 @@
+# Canonical Name <canonical-email> Commit Name <commit-email>
+# Map the non-real email to your correct identity for display in GitHub UI and git shortlog/blame
+Ye Wei <ye.wei.phd@gmail.com> clab0713 <clab0713@immpc81.imm.ox.ac.uk>
+
+# (Optional) Also normalize your displayed name when using the same email but different name
+# Uncomment if you prefer "Ye Wei" instead of "Ye-We1" in UI
+# Ye Wei <ye.wei.phd@gmail.com> Ye-We1 <ye.wei.phd@gmail.com> 
